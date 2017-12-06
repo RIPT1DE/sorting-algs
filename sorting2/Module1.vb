@@ -5,6 +5,7 @@
 
         printArr(insertionSort(arr))
         printArr(selectionSort(arr))
+        printArr(bubbleSort(arr))
         Console.ReadLine()
     End Sub
 
@@ -39,6 +40,21 @@
                 reqPosition -= 1
             Loop
             sorted(reqPosition) = temp
+        Next
+        Return sorted
+    End Function
+
+    Function bubbleSort(ByVal arr() As Integer)
+        Dim sorted() = arr
+        Dim temp As Integer
+        For i = 0 To arr.Length - 1
+            For j = 0 To arr.Length - 2 - i
+                If arr(i) > arr(i + 1) Then
+                    temp = sorted(i)
+                    sorted(i) = sorted(i + 1)
+                    sorted(i + 1) = temp
+                End If
+            Next
         Next
         Return sorted
     End Function
