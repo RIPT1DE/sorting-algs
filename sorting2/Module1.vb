@@ -15,14 +15,14 @@
         For j = sorted.Length - 1 To 1 Step -1
             max = 0
             For i = j To 0 Step -1
-                If sorted(i) > max Then
-                    max = sorted(i)
-                    index = i
+                If sorted(i) > max Then 'compare each value with previous max(on first run, value is always larger)
+                    max = sorted(i) 'if current value is larger than previous max, it becomes the new max 
+                    index = i 'save the index where max is found
                 End If
             Next
-            temp = sorted(index)
-            sorted(index) = sorted(j)
-            sorted(j) = max
+            temp = sorted(index)        'move max
+            sorted(index) = sorted(j)   'to the correct position
+            sorted(j) = max             'by swapping
         Next
         Return sorted
     End Function
