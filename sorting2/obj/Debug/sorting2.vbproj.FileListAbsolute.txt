@@ -1,0 +1,11 @@
+C:\Users\siddi\source\repos\sorting2\sorting2\bin\Debug\sorting2.exe.config
+C:\Users\siddi\source\repos\sorting2\sorting2\bin\Debug\sorting2.exe
+C:\Users\siddi\source\repos\sorting2\sorting2\bin\Debug\sorting2.pdb
+C:\Users\siddi\source\repos\sorting2\sorting2\bin\Debug\sorting2.xml
+C:\Users\siddi\source\repos\sorting2\sorting2\obj\Debug\sorting2.vbprojResolveAssemblyReference.cache
+C:\Users\siddi\source\repos\sorting2\sorting2\obj\Debug\sorting2.Resources.resources
+C:\Users\siddi\source\repos\sorting2\sorting2\obj\Debug\sorting2.vbproj.GenerateResource.Cache
+C:\Users\siddi\source\repos\sorting2\sorting2\obj\Debug\sorting2.vbproj.CoreCompileInputs.cache
+C:\Users\siddi\source\repos\sorting2\sorting2\obj\Debug\sorting2.exe
+C:\Users\siddi\source\repos\sorting2\sorting2\obj\Debug\sorting2.xml
+C:\Users\siddi\source\repos\sorting2\sorting2\obj\Debug\sorting2.pdb
